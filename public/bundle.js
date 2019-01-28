@@ -24943,11 +24943,6 @@
 	            Link,
 	            { to: '/examples', activeClassName: 'active', activeStyle: { fontWeight: 'bold' } },
 	            'Examples'
-	        ),
-	        React.createElement(
-	            'a',
-	            { href: '#/about' },
-	            'Go About'
 	        )
 	    );
 	};
@@ -26701,11 +26696,20 @@
 	// });
 
 	var About = function About(props) {
-	    return React.createElement(
-	        'h3',
-	        null,
-	        'About component'
-	    );
+	  return React.createElement(
+	    'div',
+	    null,
+	    React.createElement(
+	      'h3',
+	      null,
+	      'About'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Welcome to about page'
+	    )
+	  );
 	};
 
 	module.exports = About;
