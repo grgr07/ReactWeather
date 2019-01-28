@@ -10,6 +10,9 @@ var Examples = require('Examples');
 require('style!css!foundation-sites/dist/foundation.min.css')
 $(document).foundation();
 
+//App style
+require('style!css!applicationStyles');
+
 //it's equal to var Route = require('react-router').Route;
 /*
 var obj = {
