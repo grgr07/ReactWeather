@@ -26727,11 +26727,20 @@
 	// });
 
 	var Examples = function Examples(props) {
-	    return React.createElement(
-	        'h3',
-	        null,
-	        'Examples component'
-	    );
+	   return React.createElement(
+	      'div',
+	      null,
+	      React.createElement(
+	         'h3',
+	         null,
+	         'Examples'
+	      ),
+	      React.createElement(
+	         'p',
+	         null,
+	         'Welcome to examples page'
+	      )
+	   );
 	};
 
 	module.exports = Examples;
