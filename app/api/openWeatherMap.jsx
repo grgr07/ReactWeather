@@ -25,7 +25,7 @@ console.log("all ok");
         },function(res){
             console.log("fail");
             // throw new Error(res.data.message);
-            throw new Error("Can`t find the city");
+            throw new Error("Error: Not found city");
         })
     }
 };
